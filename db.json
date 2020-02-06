@@ -1,14 +1,92 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+showLive: "true",
+reAppearTimeInMin: "5",
+rft: "20",
+rtt: "5",
+sessionGap: "0",
+cubeDisabledPages: "",
+autoCloseTime: "0",
+dailyFCap: "1",
+items: [
+{
+tn: "election",
+smallAdUrl: "/7176/NBT_App_Android/NBT_APP_AOS_Others/NBT_APP_AOS_Others_CUBE_195x30",
+election: {
+tn: "election",
+dl: "nbtreaderactivities://open-$|$-pub=2:Navbharat Times-$|$-type=html-$|$-domain=t-$|$-id=https://navbharattimes.indiatimes.com/elections/lok-sabha-elections/results/69253542.cms?frmapp=yes",
+ttl_seats: "70",
+header: "दिल्ली चुनाव (पार्टी अनुसार)",
+status: "LEADS + WINS",
+majority_text: "बहुमत:",
+majority_seat: "86",
+rslt: [
+{
+nm: "BJP+",
+ws: "30",
+cc: "#FF7D1D"
+},
+{
+nm: "AAP",
+ws: "21",
+cc: "#117E5F"
+},
+{
+nm: "INC+",
+ws: "19",
+cc: "#0076CC"
+},
+{
+nm: "OTH",
+ws: "0",
+cc: "#84898B"
+}
+]
+}
+},
+{
+tn: "ad",
+smallAdUrl: "/7176/NBT_App_Android/NBT_APP_AOS_Others/NBT_APP_AOS_Others_CUBE_195x30",
+adUrl: "/7176/NBT_App_Android/NBT_APP_AOS_Others/NBT_APP_AOS_Others_CUBE_195x85"
+},
+{
+tn: "election",
+smallAdUrl: "/7176/NBT_App_Android/NBT_APP_AOS_Others/NBT_APP_AOS_Others_CUBE_195x30",
+election: {
+tn: "election",
+dl: "nbtreaderactivities://open-$|$-pub=2:Navbharat Times-$|$-type=html-$|$-domain=t-$|$-id=https://navbharattimes.indiatimes.com/elections/lok-sabha-elections/results/69253542.cms?frmapp=yes",
+ttl_seats: "70",
+header: "दिल्ली चुनाव (गठबंधन अनुसार)",
+status: "LEADS + WINS",
+majority_text: "बहुमत:",
+majority_seat: "36",
+rslt: [
+{
+nm: "BJP",
+ws: "326",
+cc: "#FF7D1D"
+},
+{
+nm: "AAP",
+ws: "321",
+cc: "#117E5F"
+},
+{
+nm: "INC",
+ws: "318",
+cc: "#0076CC"
+},
+{
+nm: "OTH",
+ws: "305",
+cc: "#84898B"
+}
+]
+}
+},
+{
+tn: "ad",
+smallAdUrl: "/7176/NBT_App_Android/NBT_APP_AOS_Others/NBT_APP_AOS_Others_CUBE_195x30",
+adUrl: "/7176/NBT_App_Android/NBT_APP_AOS_Others/NBT_APP_AOS_Others_CUBE_195x85"
+}
+]
 }
